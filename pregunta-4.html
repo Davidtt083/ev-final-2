@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css\style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.4/js/bootstrap.min.js"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/c4b7d7f020.js" crossorigin="anonymous"></script>
+  <title>Evaluación final</title>
+</head>
+
+<body>
+
+  <!-- partial:index.partial.html -->
+  <div class="container">
+
+    <!-- Task Area -->
+    <div class="sider">
+      <div class="dots">
+        <div class=""></div>
+        <div class=""></div>
+        <div class=""></div>
+      </div>
+      <img class="smart" src="images\bg-2.png" alt="" srcset="">
+      <div class="my-name">
+        <h1 style="color: white;"></h1>
+      </div>
+
+      <div class="incomplete-task-up">
+        <div class="incomplete-task">
+
+          <h4>4. Uno de los formatos recomendados es <i>storytelling</i> ¿Cuáles son los elementos con lo que debe
+            contar este
+            formato para cumplir su función?</h4>
+
+        </div>
+      </div>
+
+      <div class="uppertaskarea">
+        <div class="taskarea">
+
+          <div class="tasks">
+            <p>Persona, problemática, ejemplificación, solución. </p>
+            <div class="task-update-delete">
+              <input type="radio" id="r2" name="fav_language" />
+                <label for="html"></label><br>
+            </div>
+          </div>
+
+          <div class="tasks">
+            <p>Problemática, persona a la que va dirigido, ejemplificación, solución. </p>
+            <div class="task-update-delete">
+              <input type="radio" id="r2" name="fav_language" value="HTML">
+                <label for="html"></label><br>
+            </div>
+          </div>
+
+          <div class="tasks">
+            <p>Persona, conflicto, resolución. </p>
+            <div class="task-update-delete">
+              <input type="radio" id="r1" name="fav_language" value="HTML">
+                <label for="html"></label><br>
+            </div>
+          </div>
+
+
+
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+  <!-- partial -->
+
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true"
+    data-backdrop="static" data-keyboard="false">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title" id="myModalLabel"><i class="fa-solid fa-circle-check fa-3x" style="color: green;"></i>
+          </h4>
+        </div>
+        <div class="modal-body">
+          <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+          <lottie-player class="confeti" src="https://assets2.lottiefiles.com/packages/lf20_ky24lkyk.json"
+            background="transparent" speed="1" style="width: 300px; height: 300px;" loop autoplay></lottie-player>
+          ¡Muy bien! Los elementos con que debe contar un <i>storytelling</i> para cumplir su función son: persona,
+          conflicto y resolución.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" onClick="parent.location='pregunta-5.html'">Siguiente</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal-2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true"
+    data-backdrop="static" data-keyboard="false">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title" id="myModalLabel"><i class="fa-solid fa-circle-xmark fa-3x" style="color: red;"></i>
+          </h4>
+        </div>
+        <div class="modal-body">
+          Lo siento, tu respuesta no es correcta. Recuerda que, los elementos con que debe contar un <i>storytelling</i> para
+          cumplir su función son: persona, conflicto y resolución.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" onClick="parent.location='pregunta-5.html'">Siguiente</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js\index.js"></script>
+
+
+</body>
+
+</html>
