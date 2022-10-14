@@ -447,4 +447,5 @@ input[type="submit"] {
 .modal{
   transform: translateY(200px);
   font-size: 1.5em;
+  height: 80%;
 }
