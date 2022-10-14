@@ -220,14 +220,15 @@ input[type="submit"] {
   padding: 0.6em;
   margin: 0.7em auto;
   border-radius: 5px;
-  background: rgba(0, 0, 0, 0.3);
+  background: rgba(0, 0, 0, 0.6);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(6px);
   -webkit-backdrop-filter: blur(6px);
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
-  font-size: 20px;
-  line-height: 1; 
+  font-size: 24px;
+  line-height: 1.2; 
+  cursor: pointer;
 }
 
 .taskarea p {
@@ -313,7 +314,7 @@ input[type="submit"] {
   padding-right: 25%;
   top: 0;
   justify-content: center;
-  margin-top: -107px;
+  margin-top: -134px;
 }
 
 .smart {
@@ -396,7 +397,7 @@ input[type="submit"] {
 }
 
 .tasks:hover {
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0.8);
 }
 
 .sv input[type="submit"]:hover {
