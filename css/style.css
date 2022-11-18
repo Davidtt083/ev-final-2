@@ -329,7 +329,7 @@ input[type="submit"] {
 
 .smart {
  max-width: 50%;
-  height: 106%;
+  height: 105%;
   z-index: -99;
   position: absolute;
   top: -22px;
