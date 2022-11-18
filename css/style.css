@@ -253,6 +253,8 @@ input[type="submit"] {
   scrollbar-width: none;
   width: 75%;
   min-width: 55%;
+  margin-left: -37px;
+  margin-top: -14px;
 }
 
 .uppertaskarea {
@@ -333,7 +335,7 @@ input[type="submit"] {
   z-index: -99;
   position: absolute;
   top: -22px;
-  margin-left: 4%;
+  margin-left: 2%;
 
 }
 
@@ -385,8 +387,9 @@ input[type="submit"] {
   height: 5%;
   width: 79%;
   color: rgb(11, 10, 10);
-  margin-top: 36%;
+  margin-top: 33%;
  display: flex;
+ margin-left: -37px;
 }
 
 .incomplete-task p {
